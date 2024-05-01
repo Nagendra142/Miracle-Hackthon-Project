@@ -1,0 +1,285 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+body{
+  background: url("https://img.freepik.com/free-photo/emergency-auto-mechanic-changing-flat-tire-road_651396-3559.jpg?size=626&ext=jpg&ga=GA1.1.1700460183.1708560000&semt=ais");
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  backdrop-filter: blur(10px);
+}
+.main-home{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height:100vh;
+  /* background: linear-gradient(rgb(244, 244, 126),rgb(34, 34, 34)); */
+}
+.home-container{
+  padding:5%;
+  border-radius: 20px;
+  border:1px solid black;
+  color:black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap:50px;
+}
+.home-title{
+  font-size: 50px;
+  font-weight: 700;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.home-buttons{
+  height:70px;
+  display: flex;
+  align-items: center;
+  gap:30px; 
+}
+.butt{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color:black;
+  font-size: 18px;
+  height:50px;
+  border:none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  border-radius: 5px;
+  width:100px;
+  margin:auto 4px;
+  text-decoration: none;
+  list-style: none;
+}
+
+
+.title{
+  gap:30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  position: absolute;
+  opacity: 0.8;
+  top:5px;
+  left:5px;
+  mix-blend-mode:hard-light
+}
+.home-qoute{
+  color:rgb(4, 4, 4);
+  font-size: 25px;
+  font-weight: 800;
+  text-shadow: 5px 2px 10px black;
+  stroke:rgb(9, 9, 8);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+img{
+  width:100px;
+  border-radius: 100px;
+}
+.butt:hover{
+  text-decoration: none;
+}
+.butt.mech{
+  background-color: rgb(243, 243, 15);
+}
+.butt.cust{
+  background-color: rgb(6, 6, 6);
+  color:#fff;
+}
+.diagnosis{
+  height:fit-content;
+  padding:40px 0;
+  /*  */
+}
+.diag-title{
+  color:black;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size:50px;
+  text-shadow: 1px 1px 5px limegreen;
+}
+.sub{
+  background-color: black;
+  color: white;
+  border:none;
+  font-size: 20px;
+  padding:5px;
+  border-radius:5px;
+}
+.diag-home{
+  display: flex;
+  flex-direction: column; 
+  padding:30px;
+  background:linear-gradient(to  right, rgb(251, 248, 248),rgb(244, 243, 246));
+  border-radius: 5px;
+  /* border:1px solid black; */
+  height:fit-content;
+  max-width: 1000px;
+  width:100%;
+  box-shadow: inset 1px 1px 5px rgb(2, 2, 2);
+}
+.faq{
+  padding:10px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.faq input{
+  border:1px solid gray;
+  border-radius: 3px;
+  padding:2px 10px;
+  width:100%;
+  height:35px;
+  font-size: 10px;
+  background-color: transparent;
+}
+.faq p{
+  font-size: 20px;
+}
+.faq input:active{
+  border:none;
+}
+.faq img{
+  width:20px;
+}
+.card{
+  display: flex;
+  flex-direction: column;
+  /* justify-content: flex-start; */
+  /* align-items: center; */
+  /* border: 1px solid black; */
+  background-color: rgb(243, 232, 248);
+  padding:20px;
+  max-width:400px;
+  width:100%;
+  border-radius: 10px;
+  /* gap:20px; */
+  margin: 10px;
+  /* max-width:400px; */
+  height:fit-content;
+}
+.mechanic-home{
+  display: grid;
+  place-items: center;
+  grid-template-columns: 1fr 1fr;
+}
+
+.mechanic-home p{
+  font-size: 18px;
+  font-weight: 700;
+}
+.card{
+  text-align: left;
+}
+
+.nav-container{
+  display: grid;
+  place-items: center;
+  height: 60px;
+  background-color: antiquewhite;
+  width:100%;
+  
+}
+.nav-home{
+  font-size: 20px;
+  color:black;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 800;
+  list-style-type: none;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  gap:30px;
+}
+/* .nav */
+.nav-home li{
+  color:black;
+}
+.nav-home li:active{
+  text-decoration: none;
+}
+  .register-home{
+    background-color: rgb(248, 241, 232);
+    margin: 0;
+    max-width:500px;
+    width:100%;
+    border:1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    padding: 20px 0;
+  }
+.inner-form{
+  height:50px;
+  font-size: 16px;
+color:black;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+margin-bottom: 10px;
+display: flex;
+flex-direction: column;
+}
+.inner-form input{
+  border-radius: 5px;
+  border:none;  
+}
+
+/* .orders{
+  grid-template-columns: 1fr;
+  max-width:1000px;
+  width:100%;
+} */
+
+@media screen and (max-width:700px){
+  .title{
+    display:none;
+  }
+  .home-container.home{
+    margin:40px;
+    padding:30px;
+  }
+  .diagnosisSolve{
+    padding:0 40px;
+  }
+  .diagnosis{
+    min-width:500px;
+    width:100%;
+  }
+  .mechanic-home{
+    grid-template-columns: 1fr;
+  }
+  .diag-home.mechanic-home{
+    margin:0 40px;
+  }
+  .main-home.diagnosis{
+    min-width:200px;
+    width:95%;
+  }
+  .register-home{
+    margin:0 70px;
+    max-width:400px;
+    padding:5px;
+    margin-bottom:30px;
+  }
+  .register-home form input{
+    padding:0 10px;
+  }
+  .diag-home.mechanic-home.orders{
+    margin-right:20px;
+  }
+}
+
+.diagnosisSolve input{
+  border:none;
+  border-radius: 5px;
+  width:200px;
+}
+.diagnosisSolve label{
+  background-color: rgb(144, 222, 222);
+  border-radius:10px;
+  color:black;
+}
